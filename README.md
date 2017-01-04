@@ -31,6 +31,6 @@ spring-shiro-demo
 ######登录：http://localhost:8080/ssd/security/login   ----->角色:admin，用户名:admin,密码：21232f297a57a5a743894a0e4a801fc3
 ######权限测试：http://localhost:8080/ssd/users ----->访问成功
 ######权限测试：http://localhost:8080/ssd/test/access ----->访问失败，无访问权限
-######换个用户登录，修改UserRealm.java里的角色为roler1，重新登录http://localhost:8080/ssd/security/login
+######换个角色登录，修改UserRealm.java里的角色为roler1，重新登录http://localhost:8080/ssd/security/login
 ######权限测试：http://localhost:8080/ssd/users ----->访问成功
 ######权限测试：http://localhost:8080/ssd/test/access ----->访问成功
