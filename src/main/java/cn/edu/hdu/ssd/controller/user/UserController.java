@@ -15,16 +15,9 @@ package cn.edu.hdu.ssd.controller.user;
 
 import java.net.URI;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import javax.servlet.http.HttpServletRequest;
-
-import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.authc.DisabledAccountException;
-import org.apache.shiro.web.util.SavedRequest;
-import org.apache.shiro.web.util.WebUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -34,13 +27,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import cn.edu.hdu.ssd.common.base.BaseController;
-import cn.edu.hdu.ssd.model.Account;
-import cn.edu.hdu.ssd.model.ShiroToken;
 import cn.edu.hdu.ssd.model.User;
 import cn.edu.hdu.ssd.service.user.IUserService;
 

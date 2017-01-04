@@ -27,7 +27,7 @@ public class User
     private long id;
     private String name;
     private String address;
-
+    private String password;
 
 
     /**
@@ -76,6 +76,22 @@ public class User
     public void setId(long id)
     {
         this.id = id;
+    }
+
+    /**
+     * @return the password
+     */
+    public String getPassword()
+    {
+        return password;
+    }
+
+    /**
+     * @param password the password to set
+     */
+    public void setPassword(String password)
+    {
+        this.password = password;
     }
 
 }
